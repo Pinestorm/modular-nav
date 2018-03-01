@@ -25,19 +25,16 @@ header {
   background-color: #e2e2e2;
 }
 
-h1 {
-  text-align: center;
-}
-
-nav {
-  text-align: center;
-}
-
 a {
   color: #0074d9;
   text-decoration: none;
   background-color: #e2e2e2;
   display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -51,11 +48,11 @@ a:hover {
 
 @@media only screen and (min-width: 38em) {
 
-  h1 {
+  header {
     text-align: left;
   }
 
-  nav {
+  .right {
     text-align: right;
   }
 }
